@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+	<head>
+		<meta charset="utf-8">
+	    <meta name="Author" content="Tobías Nazareno Bregante and Maickol Amador">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="#" sizes="64x64">
+		<link rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+			crossorigin="anonymous"/>
+		 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+		 	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+		 	crossorigin="anonymous"></script>	
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+			crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">		
+		<meta charset="utf-8">
+		<meta name="Description" content="Movie site of high definition and doramas free">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>
+			Home
+		</title>
+	</head>
+	<body>
+		<main class="container-fluid">
+			<article class="row bg-dark">
+				<header class="col-4 col-sm-4 col-lg-4 col-xl-4">
+					<img class="logo" src="img/logo.png"><span class="lema">We are your relaxation space</span>
+				</header>
+				<nav class="navbar col-8 col-sm-8 col-lg-8 col-xl-8">
+					<img src="" class="d-none">
+					<ul class="nav">
+						<li class="h">
+							Home
+						</li>
+						<li class="m">
+							Movies
+						</li>
+						<li class="s">
+							Series
+						</li>
+						<li class="l">
+							Login/Register
+						</li>
+						<li class="frm-search">
+							<form class="form-inline">
+								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+								<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+							</form>
+						</li>	
+					</ul>
+				</nav>
+			</article>
+			<section class="row">
+				<article class="content-movie-albums col-12 col-sm-12 col-lg-12 col-xl-12 p-0 bg-dark">
+					<article onclick="slide(this)" title="movies-premiere" class="carousel-content">
+						<ul class="list-carousel-movies-premiere">
+							<li class="box-movies-premiere-1" style="background-image: url(img/1.jpg);">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+								</article>
+							</li>
+							<li class="box-movies-premiere-2" style="background-image: url(img/2.jpg);">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+								</article>
+							</li>
+							<li class="box-movies-premiere-3" style="background-image: url(img/3.jpg);" value="end">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+								</article>
+							</li>	
+						</ul>
+					</article>
+					<article onclick="slide(this)" title="series" class="carousel-content-1">
+						<ul class="list-carousel-series">
+							<li class="box-series-1" style="background-image: url(img/1.jpg);">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+									<button type="button" class="btn btn-success button-slide-1 d-none">next</button>
+								</article>
+							</li>
+							<li class="box-series-2" style="background-image: url(img/2.jpg);">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+									<button type="button" class="btn btn-success button-slide-2 d-none">next</button>
+								</article>
+							</li>
+							<li class="box-series-3" style="background-image: url(img/3.jpg);" value="end">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+									<button type="button" class="btn btn-success button-slide-3 d-none">next</button>
+								</article>
+							</li>	
+						</ul>
+					</article>
+					<article onclick="slide(this)" title="popular" class="carousel-content-2">
+						<ul class="list-carousel-popular">
+							<li class="box-popular-1" style="background-image: url(img/1.jpg);">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+								</article>
+							</li>
+							<li class="box-popular-2" style="background-image: url(img/2.jpg);">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+								</article>
+							</li>
+							<li class="box-popular-3" style="background-image: url(img/3.jpg);" value="end">
+								<article class="des">
+									<p>
+										ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.
+									</p>
+									<button type="button" class="btn btn-primary">
+										Reproducir
+									</button>
+								</article>
+							</li>	
+						</ul>
+					</article>					
+				</article>
+			</section>
+			<article class="login-register bg-dark d-none">
+				<form class="frm-login-register">
+					<input type="text" name="us" placeholder="Username"><br>
+					<input type="password" name="pdw" placeholder="Password"><br>
+					<button type="button" class="btn btn-success">
+						Submit
+					</button>
+				</form>
+			</article>
+			<article class="box-shadow d-none"></article>
+		</main>
+		<script src="App.js"></script>
+	</body>
+</html>
